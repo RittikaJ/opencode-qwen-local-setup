@@ -1,0 +1,20 @@
+# Local tool installations and model/runtime data
+.tools/
+.local/
+node_modules/
+.venv/
+venv/
+
+# Python and editor files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+
+# Local credentials
+.env
+.env.*
+!.env.example
+
+# Keep the bundled log fixture even if a global ignore excludes logs
+!examples/log-analyzer/sample.log

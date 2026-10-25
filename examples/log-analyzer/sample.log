@@ -1,0 +1,8 @@
+GET / 200 12
+GET /products 200 99
+POST /checkout 400 18
+GET /missing 404 9
+GET /export 200 1200
+GET /health 500 6
+
+incomplete log entry
